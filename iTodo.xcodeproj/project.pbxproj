@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E98FDC56283D2BE100A4B43F /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98FDC55283D2BE100A4B43F /* CoreDataViewModel.swift */; };
 		E9D72C26283CFB9B00D1C8DE /* iTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C25283CFB9B00D1C8DE /* iTodoApp.swift */; };
 		E9D72C28283CFB9B00D1C8DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C27283CFB9B00D1C8DE /* ContentView.swift */; };
 		E9D72C2A283CFB9C00D1C8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D72C29283CFB9C00D1C8DE /* Assets.xcassets */; };
 		E9D72C2D283CFB9C00D1C8DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D72C2C283CFB9C00D1C8DE /* Preview Assets.xcassets */; };
+		E9D72C3A283D010000D1C8DE /* iTodoUserInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C39283D010000D1C8DE /* iTodoUserInterfaceTests.swift */; };
+		E9D72C3C283D010000D1C8DE /* iTodoUserInterfaceTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C3B283D010000D1C8DE /* iTodoUserInterfaceTestsLaunchTests.swift */; };
+		E9D72C46283D011F00D1C8DE /* Springboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C45283D011F00D1C8DE /* Springboard.swift */; };
+		E9D72C49283D03E000D1C8DE /* ContentViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C48283D03E000D1C8DE /* ContentViewPage.swift */; };
+		E9D72C4C283D0BE800D1C8DE /* iTodoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C4A283D0BE800D1C8DE /* iTodoModel.xcdatamodeld */; };
+		E9D72C4F283D0C3400D1C8DE /* Todo+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C4E283D0C3400D1C8DE /* Todo+Extensions.swift */; };
+		E9D72C52283D0CFD00D1C8DE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D72C51283D0CFD00D1C8DE /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E9D72C3D283D010000D1C8DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D72C1A283CFB9B00D1C8DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D72C21283CFB9B00D1C8DE;
+			remoteInfo = iTodo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		E98FDC55283D2BE100A4B43F /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		E9D72C22283CFB9B00D1C8DE /* iTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D72C25283CFB9B00D1C8DE /* iTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTodoApp.swift; sourceTree = "<group>"; };
 		E9D72C27283CFB9B00D1C8DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9D72C29283CFB9C00D1C8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D72C2C283CFB9C00D1C8DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9D72C37283D010000D1C8DE /* iTodoUserInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTodoUserInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D72C39283D010000D1C8DE /* iTodoUserInterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTodoUserInterfaceTests.swift; sourceTree = "<group>"; };
+		E9D72C3B283D010000D1C8DE /* iTodoUserInterfaceTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTodoUserInterfaceTestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9D72C45283D011F00D1C8DE /* Springboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Springboard.swift; sourceTree = "<group>"; };
+		E9D72C48283D03E000D1C8DE /* ContentViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPage.swift; sourceTree = "<group>"; };
+		E9D72C4B283D0BE800D1C8DE /* iTodoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTodoModel.xcdatamodel; sourceTree = "<group>"; };
+		E9D72C4E283D0C3400D1C8DE /* Todo+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+Extensions.swift"; sourceTree = "<group>"; };
+		E9D72C51283D0CFD00D1C8DE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +56,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9D72C34283D010000D1C8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E98FDC54283D2BC700A4B43F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E98FDC55283D2BE100A4B43F /* CoreDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E98FDC57283D2D1300A4B43F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9D72C27283CFB9B00D1C8DE /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E9D72C19283CFB9B00D1C8DE = {
 			isa = PBXGroup;
 			children = (
 				E9D72C24283CFB9B00D1C8DE /* iTodo */,
+				E9D72C38283D010000D1C8DE /* iTodoUserInterfaceTests */,
 				E9D72C23283CFB9B00D1C8DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D72C22283CFB9B00D1C8DE /* iTodo.app */,
+				E9D72C37283D010000D1C8DE /* iTodoUserInterfaceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,9 +104,13 @@
 			isa = PBXGroup;
 			children = (
 				E9D72C25283CFB9B00D1C8DE /* iTodoApp.swift */,
-				E9D72C27283CFB9B00D1C8DE /* ContentView.swift */,
+				E98FDC57283D2D1300A4B43F /* View */,
+				E98FDC54283D2BC700A4B43F /* ViewModel */,
+				E9D72C50283D0CEB00D1C8DE /* Manager */,
+				E9D72C4D283D0C2100D1C8DE /* Exstensions */,
 				E9D72C29283CFB9C00D1C8DE /* Assets.xcassets */,
 				E9D72C2B283CFB9C00D1C8DE /* Preview Content */,
+				E9D72C4A283D0BE800D1C8DE /* iTodoModel.xcdatamodeld */,
 			);
 			path = iTodo;
 			sourceTree = "<group>";
@@ -65,6 +121,49 @@
 				E9D72C2C283CFB9C00D1C8DE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9D72C38283D010000D1C8DE /* iTodoUserInterfaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D72C47283D03B700D1C8DE /* Page Objects */,
+				E9D72C44283D011100D1C8DE /* Utils */,
+				E9D72C39283D010000D1C8DE /* iTodoUserInterfaceTests.swift */,
+				E9D72C3B283D010000D1C8DE /* iTodoUserInterfaceTestsLaunchTests.swift */,
+			);
+			path = iTodoUserInterfaceTests;
+			sourceTree = "<group>";
+		};
+		E9D72C44283D011100D1C8DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9D72C45283D011F00D1C8DE /* Springboard.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E9D72C47283D03B700D1C8DE /* Page Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E9D72C48283D03E000D1C8DE /* ContentViewPage.swift */,
+			);
+			path = "Page Objects";
+			sourceTree = "<group>";
+		};
+		E9D72C4D283D0C2100D1C8DE /* Exstensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9D72C4E283D0C3400D1C8DE /* Todo+Extensions.swift */,
+			);
+			path = Exstensions;
+			sourceTree = "<group>";
+		};
+		E9D72C50283D0CEB00D1C8DE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E9D72C51283D0CFD00D1C8DE /* CoreDataManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +186,24 @@
 			productReference = E9D72C22283CFB9B00D1C8DE /* iTodo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E9D72C36283D010000D1C8DE /* iTodoUserInterfaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D72C3F283D010000D1C8DE /* Build configuration list for PBXNativeTarget "iTodoUserInterfaceTests" */;
+			buildPhases = (
+				E9D72C33283D010000D1C8DE /* Sources */,
+				E9D72C34283D010000D1C8DE /* Frameworks */,
+				E9D72C35283D010000D1C8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D72C3E283D010000D1C8DE /* PBXTargetDependency */,
+			);
+			name = iTodoUserInterfaceTests;
+			productName = iTodoUserInterfaceTests;
+			productReference = E9D72C37283D010000D1C8DE /* iTodoUserInterfaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +216,10 @@
 				TargetAttributes = {
 					E9D72C21283CFB9B00D1C8DE = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					E9D72C36283D010000D1C8DE = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = E9D72C21283CFB9B00D1C8DE;
 					};
 				};
 			};
@@ -116,6 +237,7 @@
 			projectRoot = "";
 			targets = (
 				E9D72C21283CFB9B00D1C8DE /* iTodo */,
+				E9D72C36283D010000D1C8DE /* iTodoUserInterfaceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +252,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9D72C35283D010000D1C8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +267,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D72C28283CFB9B00D1C8DE /* ContentView.swift in Sources */,
+				E98FDC56283D2BE100A4B43F /* CoreDataViewModel.swift in Sources */,
+				E9D72C4F283D0C3400D1C8DE /* Todo+Extensions.swift in Sources */,
+				E9D72C4C283D0BE800D1C8DE /* iTodoModel.xcdatamodeld in Sources */,
+				E9D72C52283D0CFD00D1C8DE /* CoreDataManager.swift in Sources */,
 				E9D72C26283CFB9B00D1C8DE /* iTodoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9D72C33283D010000D1C8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D72C3A283D010000D1C8DE /* iTodoUserInterfaceTests.swift in Sources */,
+				E9D72C3C283D010000D1C8DE /* iTodoUserInterfaceTestsLaunchTests.swift in Sources */,
+				E9D72C46283D011F00D1C8DE /* Springboard.swift in Sources */,
+				E9D72C49283D03E000D1C8DE /* ContentViewPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D72C3E283D010000D1C8DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D72C21283CFB9B00D1C8DE /* iTodo */;
+			targetProxy = E9D72C3D283D010000D1C8DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E9D72C2E283CFB9C00D1C8DE /* Debug */ = {
@@ -317,6 +469,40 @@
 			};
 			name = Release;
 		};
+		E9D72C40283D010000D1C8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q8A93T347;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.wojtkowiak.bartosz.iTodoUserInterfaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTodo;
+			};
+			name = Debug;
+		};
+		E9D72C41283D010000D1C8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q8A93T347;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.wojtkowiak.bartosz.iTodoUserInterfaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTodo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -338,7 +524,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E9D72C3F283D010000D1C8DE /* Build configuration list for PBXNativeTarget "iTodoUserInterfaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D72C40283D010000D1C8DE /* Debug */,
+				E9D72C41283D010000D1C8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9D72C4A283D0BE800D1C8DE /* iTodoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9D72C4B283D0BE800D1C8DE /* iTodoModel.xcdatamodel */,
+			);
+			currentVersion = E9D72C4B283D0BE800D1C8DE /* iTodoModel.xcdatamodel */;
+			path = iTodoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E9D72C1A283CFB9B00D1C8DE /* Project object */;
 }

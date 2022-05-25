@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
+//    @Environment(\.managedObjectContext) private var viewContext
     @EnvironmentObject var vm: CoreDataViewModel
-    @FetchRequest(fetchRequest: Todo.allTodoFetchRequest()) private var allTodos: FetchedResults<Todo>
+//    @FetchRequest(fetchRequest: Todo.allTodoFetchRequest()) private var allTodos: FetchedResults<Todo>
     @State private var title = ""
     
     var body: some View {
@@ -35,18 +35,6 @@ struct ContentView: View {
                         Text(todo.title ?? "")
                     }
                     .onDelete(perform: vm.deleteTodo)
-//                    .onDelete { indexSet in
-//                        indexSet.forEach { index in
-//                            let task = allTodos[index]
-//                            viewContext.delete(task)
-//
-//                            do {
-//                                try viewContext.save()
-//                            } catch {
-//                                print(error)
-//                            }
-//                        }
-//                    }
                 }
                 .accessibilityIdentifier("todoList")
             }

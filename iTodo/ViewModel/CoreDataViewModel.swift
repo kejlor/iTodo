@@ -25,7 +25,7 @@ final class CoreDataViewModel: ObservableObject {
         CoreDataManager.shared.deleteTodo(indexSet: indexSet)
         getStorageData()
     }
-    
+        
     func getStorageData() {
         CoreDataManager.shared.fetchTodos()
         todos = CoreDataManager.shared.todos

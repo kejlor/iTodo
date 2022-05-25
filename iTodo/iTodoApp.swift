@@ -11,10 +11,13 @@ import SwiftUI
 struct iTodoApp: App {
     let persistenceContainer = CoreDataManager.shared.persistentContainer
     
+    @StateObject var coreDataVM = CoreDataViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceContainer.viewContext)
+                .environmentObject(coreDataVM)
         }
     }
 }

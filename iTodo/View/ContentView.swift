@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
+    @EnvironmentObject var vm: CoreDataViewModel
     @FetchRequest(fetchRequest: Todo.allTodoFetchRequest()) private var allTodos: FetchedResults<Todo>
     @State private var title = ""
-    @State private var vm = CoreDataViewModel()
     
     var body: some View {
         NavigationView {
@@ -31,21 +31,22 @@ struct ContentView: View {
                 .accessibilityIdentifier("saveTodoButton")
                 
                 List {
-                    ForEach(allTodos) { todo in
+                    ForEach(vm.todos) { todo in
                         Text(todo.title ?? "")
                     }
-                    .onDelete { indexSet in
-                        indexSet.forEach { index in
-                            let task = allTodos[index]
-                            viewContext.delete(task)
-
-                            do {
-                                try viewContext.save()
-                            } catch {
-                                print(error)
-                            }
-                        }
-                    }
+                    .onDelete(perform: vm.deleteTodo)
+//                    .onDelete { indexSet in
+//                        indexSet.forEach { index in
+//                            let task = allTodos[index]
+//                            viewContext.delete(task)
+//
+//                            do {
+//                                try viewContext.save()
+//                            } catch {
+//                                print(error)
+//                            }
+//                        }
+//                    }
                 }
                 .accessibilityIdentifier("todoList")
             }
